@@ -33,7 +33,8 @@ venv/bin/python3 threatfox2misp.py
 
 ## Configuration
 
-Configuration is done inside [config.py](config.example.py)
+Configuration is done inside [config.py](config.example.py).
+
 Defaults are fine first, only `misp_url` and `misp_key` have to be set. 
 
 ## Built With
