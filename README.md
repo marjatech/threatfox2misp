@@ -20,6 +20,7 @@ The generated Events include:
 To get this running there's just a few simple things to do. 
 - First make sure to setup a venv, then:
 ```
+venv/bin/pip3 install pymisp
 git clone https://github.com/marjatech/threatfox2misp
 cd threatfox2misp
 cp config.example.py config.py
