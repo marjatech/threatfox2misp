@@ -43,5 +43,5 @@ Defaults are fine first, only `misp_url` and `misp_key` have to be set.
 
 ## License
 
-This project is licensed under GPLv3 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under GPLv3 - see the [LICENSE](LICENSE) file for details
 
