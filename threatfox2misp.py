@@ -144,4 +144,5 @@ if __name__ == "__main__":
     # Don't update known ones
     atts = [att for att in attributes if att['value'] not in known]
     # Finally send the update
-    event = misp.submit_tf_update(atts)
+    if atts:
+        event = misp.submit_tf_update(atts)
