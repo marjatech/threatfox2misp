@@ -10,6 +10,7 @@ lookback_days = 2
 # Event Config
 event_info_template = "Daily Incremental ThreatFox Import - {}"
 info_dateformat = "%Y-%m-%d"
+event_distribution = 0
 autopublish = True
 
 tagging = [
