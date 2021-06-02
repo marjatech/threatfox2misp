@@ -4,7 +4,7 @@ from pymisp.api import requests
 from datetime import datetime
 from config import misp_url, misp_key, misp_verifycert
 from config import fetch_url, lookback_days
-from config import event_info_template, info_dateformat, autopublish, tagging, type_mapping, confidence_tagging, event_distribution
+from config import event_info_template, info_dateformat, autopublish, tagging, type_mapping, confidence_tagging, event_distribution, event_threat_level
 
 
 #####################################################
@@ -63,7 +63,7 @@ class ThreatFoxMISP(ExpandedPyMISP):
         else:  # create a new event
             event = MISPEvent()
             event.distribution = event_distribution
-            event.threat_level_id = 1
+            event.threat_level_id = event_threat_level
             event.analysis = 2
             event.info = eventinfo
             for tag in tagging:

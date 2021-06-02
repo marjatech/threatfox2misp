@@ -11,6 +11,7 @@ lookback_days = 2
 event_info_template = "Daily Incremental ThreatFox Import - {}"
 info_dateformat = "%Y-%m-%d"
 event_distribution = 0
+event_threat_level = 3
 autopublish = True
 
 tagging = [
